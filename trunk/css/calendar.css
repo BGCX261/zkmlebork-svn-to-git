@@ -1,0 +1,66 @@
+#blocker {
+	display:inline;
+	position:absolute;
+}
+
+.calendar {
+	background-color:#EEEEEE;
+	width:155px;
+	height:150px;
+	position:absolute;
+	display:inline;
+	z-index:1;
+	border:1px solid gray;
+}
+.calendar .head  {
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	margin-bottom:7px;
+	margin-top:7px;
+}
+.calendar .head  a {
+	width:20px;
+	height:15px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	background-color:#DDDDDD;
+}
+
+.calendar .head div {
+	width:20px;
+	height:15px;
+	margin:1px;
+	background-color:#e35a38;
+	float:left;
+	text-align:center;
+	color:white;
+}
+
+.calendar .fields div {
+	width:20px;
+	height:15px;
+	margin:1px;
+
+	float:left;
+	text-align:center;
+}
+
+.calendar .fields div a {
+	width:20px;
+	height:15px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	background-color:#DDDDDD;
+}
+.calendar .fields div a:hover {
+	width:20px;
+	height:15px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	opacity: 0.50;           
+	-moz-opacity: 0.50;     
+}

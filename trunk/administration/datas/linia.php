@@ -1,0 +1,1 @@
+<?php$lib = new Linia();$linia = $lib->getLinia();?>

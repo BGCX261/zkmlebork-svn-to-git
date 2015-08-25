@@ -1,0 +1,108 @@
+/*
+ * ------------------------------------------------------------------
+ * Podstawowe parametry tag�w
+ * ------------------------------------------------------------------
+ */
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px; 
+	color: #222222;
+	padding: 0;
+	margin: 0 auto;
+	line-height: 1.25; 
+	vertical-align: baseline;
+	background-color: #ffffff;	
+}
+body {
+	position: relative;
+	height:100%;
+}
+
+* html {
+	 overflow-x: hidden;
+}
+a {
+	color:#0c6012;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+img {
+	border: none;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal }
+
+ul, ol{
+	list-style:none;
+	padding:0px;
+}
+
+input,  textarea {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px; 
+}
+
+/**
+ * ------------------------------------------------------------------
+ * Struktura szablonow
+ * ------------------------------------------------------------------
+ */
+
+#header {
+	margin:0 auto;
+	width:1000px;
+}
+#header:after {
+	clear:both;
+	display: block;
+	content: '';
+}
+
+#left {
+	width:200px;
+	float:left;
+	padding:0px;
+	height:100%;
+	overflow:hidden;
+}
+#main {
+	margin:0 auto;
+	background: url(../images/mainShadow.jpg) repeat-x bottom left;
+	background-color: #acbbf9;
+	width:1000px;
+	padding-bottom:5px;
+}
+#main:after {
+	clear:both;
+	display: block;
+	content: '';
+}
+
+#center {
+	width:793px;
+	float:left;
+	margin-left:5px;
+}
+#center:after {
+	clear:both;
+	display: block;
+	content: '';
+}
+
+#footer {
+	height:49px;
+	background: url(../images/footer.jpg) no-repeat top center;
+}
+
+/**
+ * ------------------------------------------------------------------
+ * Tabelki administracja
+ * ------------------------------------------------------------------
+ */
+
+div.row {float: left; margin: 0; padding: 0; width: 98.5%; border:1px solid black; text-align:center;}
+div.cols3 {float: left; width: 32%;  padding: 0;}
+
+

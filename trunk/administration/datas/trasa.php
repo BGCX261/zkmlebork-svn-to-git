@@ -1,0 +1,1 @@
+<?php$lib = new Trasa();$trasa = $lib->getTrasa();?>

@@ -1,0 +1,1 @@
+<?php$lib = new Legenda();$legenda = $lib->getLegenda();?>

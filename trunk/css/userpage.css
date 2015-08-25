@@ -1,0 +1,142 @@
+/* naglowek */
+
+#header #logo {
+	height:95px;
+	width:253px;
+	background: url(../images/logo.jpg) no-repeat top left;
+	float:left;
+}
+
+#header #navi {
+	float:right;
+	height:22px;
+	padding:0px;
+	margin-top:5px;
+}
+
+#navi ul {
+	background:url(../images/navi.jpg) repeat-x top left;
+	height:22px;
+	padding:0px;
+	margin:0px;
+}
+
+#navi ul li.start {
+	float:left;
+	width:50px;
+	background:url(../images/navi_start.jpg) no-repeat top left;
+}
+#navi ul li {
+	float:left;
+	height:22px;
+	background:url(../images/naviBreak.jpg) no-repeat top left;
+	padding:3px 10px 0px 10px;
+}
+
+#header #infos {
+	margin-top:17px;
+	height:80px;
+	float:right;
+	width:710px;
+	text-align:left;
+}
+
+#infos .info{
+	margin-left:5px;
+	width:170px;
+	float:left;
+	border-right:1px dotted #cccccc;
+}
+#infos .info h3{
+	color:#4b5a9b;
+	font-weight:bold;
+	font-size:11px;
+	margin-left:3px;
+	margin-top:2px;	
+	margin-bottom:2px;
+}
+
+/**** lewa kolumna ********/
+
+#left .lbox {
+	margin-left:13px;
+	margin-top:10px;
+	background:url(../images/leftTop.jpg) no-repeat top left;
+	background-color:#b6c4fb;
+	float:left;
+}
+
+.lbox .lboxtxt {
+	background:url(../images/leftBottom.jpg) no-repeat bottom left;
+	padding:0px 4px 10px 8px;
+}
+
+#left .mt30 {
+	margin-top:30px;
+}
+
+.lbox h3 {
+	color:#667edf;
+	font-weight:bold;
+	font-size:14px;
+	margin-left:10px;
+	margin-top:10px;
+	
+}
+
+/** center **/
+#center #cnt_top {
+    background: url(../images/admin_top.jpg) no-repeat top left;
+    height: 13px;
+	margin-top:22px;
+}
+
+#center #cnt_main {
+    background: url(../images/admin_center.jpg) repeat-y top left;
+    padding-left: 25px;
+	padding-right: 15px;
+}
+
+#center #cnt_main:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+#center #cnt_bottom {
+    background: url(../images/admin_bottom.jpg) no-repeat bottom left;
+    height: 13px;
+}
+
+#cnt_main h3 {
+    color: #667edf;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+#cnt_main h4 {
+    color: #666;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#cnt_main ul {
+	margin:0px;
+}
+
+#cnt_main li {
+	background: url(../images/bull.gif) no-repeat bottom left;
+	padding-left:15px;
+	margin-bottom:5px;
+	float:left;
+}
+
+
+
+
+
+

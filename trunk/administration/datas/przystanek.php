@@ -1,0 +1,1 @@
+<?php$lib = new BusStop();$przystanek = $lib->getPrzystanek();?>
